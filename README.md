@@ -9,4 +9,6 @@
   - WebPacker入れないとダメらしい
   - 参考 [Rails6 Webpackerでエラーが出た](https://qiita.com/libertyu/items/1eb74adc817ab8971100)
 
-  
+- [3.1 セットアップ](https://railstutorial.jp/chapters/static_pages?version=5.1#sec-sample_app_setup) のリスト3.2に記載されているライブラリーのバージョンでやったがエラーが出る
+  - actionviewの依存バージョンがrails-controller-testingとminitestで違うためconflictを起こしている様子
+  - ails-controller-testingのバージョン指定を外して、gem側にバージョンを任せたらよしなに入れてくれた
